@@ -544,6 +544,56 @@
           width: 4%;
           height: auto;
         }
+
+        .role1,
+        .role2{
+          display: flex;
+        }
+
+        .staff {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .editorialboard {
+          margin: 0 0 0 0;
+          font-size: 1.8rem;
+          padding: 0;
+          top: 130px;
+        }
+
+        .svsfhsbg {
+          background-image: url("svsfhsbg.png");
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 300px;
+          margin-top: -50px;
+          margin-bottom: 30px;
+          box-shadow: 1px 1px 1px rgba(0,0,0, 0.9);
+        }
+
+        details {
+          padding-left: 380px;
+        }
+
+        .desk {
+          font-size: 1.7rem;
+        }
+
+        summary {
+          font-size: 1.2rem;
+        }
+
+        details p {
+          font-size: 1.1rem;
+        }
+
+        .d1,
+        .d2 {
+          display: inline-flex;
+          flex-direction: column;
+        }
       }
       
     </style>
@@ -631,6 +681,7 @@
     <p class="editorialboard">EDITORIAL BOARD</p>
   </div>
 
+  <div class="role1">
   <div class="staff">
     <img src="ariestotelle.png" class="staff1x1">
     <p class="name">ARIESTOTELLE CORTEZ YANGA</p>
@@ -660,9 +711,11 @@
     <p class="name">JAN-BRIELLE ANTONIO</p>
     <p class="position">LAYOUT ARTIST</p>
   </div>
+</div>
 
+<div class="role2">
   <div class="staff">
-    <img src="jedi.png" class="staff1x1">
+    <img src="jEDI.png" class="staff1x1">
     <p class="name">JEDIDIAH JOY BALINGIT</p>
     <p class="position">NEWS EDITOR</p>
   </div>
@@ -690,12 +743,14 @@
     <p class="name">LANCE JOURNEY MASANGCAY</p>
     <p class="position">SCI-TECH EDITOR</p>
   </div>
+</div>
 
   <hr>
 
   <p class="desk">CORRESPONDENT DESK</p>
 
-  <details>
+  <div class="d1">
+  <details class=>
     <summary>OPINION DESK</summary>
     <p>&bull; PRINCESS CHANEL FLORES</p>
     <p>&bull; JUAN EMMANUEL CASTRO</p>
@@ -729,7 +784,9 @@
     <p>&bull; JAN LAURENCE YUMANG</p>
     <p>&bull; JACE ALJHON TUBIG</p>
   </details>
+  </div>
 
+  <div class="d2">
   <details>
     <summary>CARTOONING DESK</summary>
     <p>&bull; FRANCESKHA LUMBA</p>
@@ -760,6 +817,8 @@
     <summary>LAYOUT DESK</summary>
     <p>&bull; Us again, how fortunate :></p>
   </details>
+  </div>
+
 
   <div class="outerlayer">
     <p class="socialmedia">CONNECT WITH US!</p>
@@ -821,4 +880,5 @@
 
 
 </script>
+
 
